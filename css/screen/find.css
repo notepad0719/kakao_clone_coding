@@ -1,0 +1,144 @@
+.find-header-column {
+  display: flex;
+  align-items: center;
+}
+.find-header-cog {
+  position: relative;
+}
+
+.cog-dot {
+  top: 1px;
+  right: -6px;
+  position: absolute;
+  background-color: #e06055;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+.find-btns {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-btn {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.find-btn i {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.find-btn__title {
+  line-height: 1.2;
+  font-size: 0.9rem;
+  display: flex;
+  text-align: center;
+}
+
+.find-recommend {
+  color: #919191;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid var(--main-icon-grey);
+  border-bottom: 1px solid var(--main-icon-grey);
+}
+
+.find-recommend__title {
+  font-size: 0.8rem;
+}
+
+.find-recommend__main {
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.find-openchat {
+  margin-top: 16px;
+}
+
+.find-openchat__title {
+  display: flex;
+  justify-content: space-between;
+  color: #919191;
+  font-size: 0.8rem;
+}
+
+.openchat__title-column:last-child {
+  opacity: 0.7;
+}
+
+.openchat__main-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.openchat__main-hashtag {
+  margin-top: 8px;
+  color: #a1a1a1;
+  font-size: 0.8rem;
+}
+
+.openchat__main-extra {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.openchat__extra-avatar {
+  width: 17px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.openchat__extra-users,
+.openchat__extra-border {
+  color: #a1a1a1;
+}
+
+.openchat__extra-border {
+  margin: 0px 5px;
+}
+
+.openchat__extra-state {
+  color: #ff74c8;
+}
+
+.openchat__main-column:last-child {
+  position: relative;
+}
+
+.openchat__avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+}
+
+.openchat__heart {
+  bottom: 12px;
+  right: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.7rem;
+  padding: 4px;
+}
