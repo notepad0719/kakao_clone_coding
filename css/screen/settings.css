@@ -59,4 +59,17 @@
   justify-content: center;
   align-items: center;
   margin-left: 10px;
+  animation: rotate-new 2s linear infinite;
+}
+
+@keyframes rotate-new {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
 }

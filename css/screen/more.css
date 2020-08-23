@@ -39,6 +39,7 @@
 .more-info__more {
   margin-top: 13px;
   display: flex;
+  align-items: center;
 }
 
 .more-info__number {

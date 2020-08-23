@@ -20,6 +20,7 @@
   margin-top: 45px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .find-btn {
@@ -27,12 +28,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .find-btn i {
   font-size: 1.5rem;
-  margin-bottom: 25px;
 }
 
 .find-btn__title {
@@ -40,6 +39,7 @@
   font-size: 0.9rem;
   display: flex;
   text-align: center;
+  margin-top: 20px;
 }
 
 .find-recommend {

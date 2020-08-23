@@ -18,10 +18,11 @@ body {
 }
 .wrapper {
   width: 400px;
-  height: 100vh;
+  height: 120vh;
   margin: 0 auto;
   color: #363636;
   background-color: white;
+  animation: load-page 1.3s ease-out;
 }
 
 .main {
@@ -35,4 +36,13 @@ a:link {
 
 a:visited {
   color: inherit;
+}
+
+@keyframes load-page {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

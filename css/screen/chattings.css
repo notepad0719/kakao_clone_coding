@@ -97,7 +97,6 @@
   right: 0;
   margin: 0 auto;
   width: 400px;
-
   height: 50px;
   background-color: white;
   display: flex;
@@ -105,6 +104,7 @@
   align-items: center;
   padding-left: 15px;
   padding-right: 10px;
+  animation: show-inputbox 1s ease-out;
 }
 
 .inputbox-column i {
@@ -118,6 +118,7 @@
   border: 1px solid grey;
   border-radius: 20px;
   background-color: #f8f8f8;
+  outline: none;
 }
 
 .inputbox-column:nth-child(2) {
@@ -151,4 +152,25 @@
 
 .inputbox-column:nth-child(3) i {
   opacity: 1;
+}
+
+.chattings-inputbox:focus-within {
+  animation: stop-touching 10s ease-in;
+}
+@keyframes show-inputbox {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes stop-touching {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(9999px);
+  }
 }
