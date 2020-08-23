@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a9ea2ab270.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/component/header.css" />
+
+    <link rel="stylesheet" href="css/screen/index.css" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>loign page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="header-column">10:11</div>
+        <div class="header-column">
+          <i class="fas fa-lock"></i>
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main-header">
+          <h1 class="main-header__title">Welcome to KakaoTalk</h1>
+          <h4 class="main-header__subtitle">
+            if you have a Kakao Account,<br />
+            log in with your email or phone number.
+          </h4>
+        </section>
+        <div class="main-body">
+          <form class="main-input__box">
+            <input type="text" required placeholder="Email or phone number" />
+            <input type="text" required placeholder="Password" />
+          </form>
+          <form action="friends.html" method="get" class="main-btns">
+            <input
+              type="button"
+              value="Log In"
+              class="btn"
+              onclick="location.href='friends.html'"
+            />
+            <input type="button" value="Sign Up" class="btn" />
+            <a href="#">Find kakao Account or Password</a>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

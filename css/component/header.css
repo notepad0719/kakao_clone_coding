@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+  font-size: 0.7rem;
+}
+
+.header-column {
+  width: 33%;
+}
+.header-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.header-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header i {
+  margin-left: 3px;
+}
+
+.header span {
+  margin-left: 7px;
+}
