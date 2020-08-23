@@ -1,0 +1,154 @@
+.wrapper {
+  background-color: #abc1d0;
+}
+
+.chattings-titlebox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.chattings-icons {
+  width: 33%;
+}
+
+.chattings-icons:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.chattings-icons:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chattings-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.chattings-icons:last-child i {
+  margin-left: 25px;
+}
+
+.chattings-date {
+  margin: 30px auto 20px auto;
+  width: 155px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  background-color: #92a4b2;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.chattings-incoming {
+  display: flex;
+  align-items: center;
+}
+
+.incoming-name {
+  opacity: 0.7;
+}
+
+.incoming-messages {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.incoming-message {
+  background-color: white;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.message-time {
+  font-size: 0.6rem;
+  opacity: 0.7;
+}
+
+.chattings-outgoing {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.outgoing-message {
+  background-color: #fee500;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
+}
+
+.chattings-inputbox {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 400px;
+
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.inputbox-column i {
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
+.inputbox-textbox {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+
+.inputbox-column:nth-child(2) {
+  width: 85%;
+  position: relative;
+  margin-left: 15px;
+}
+
+.inputbox-column:nth-child(2) span {
+  position: absolute;
+  top: 9.5px;
+  left: 10px;
+}
+.inputbox-column:nth-child(2) i {
+  position: absolute;
+  top: 7px;
+  right: 40px;
+}
+
+.inputbox-column:nth-child(3) {
+  width: 30px;
+  height: 30px;
+  background-color: #fee500;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -33px;
+}
+
+.inputbox-column:nth-child(3) i {
+  opacity: 1;
+}
